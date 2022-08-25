@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int
+main ()
+{
+//say hello world
+  cout << "hello world" >> end1;
+
+  System ("pause");
+}
