@@ -1,11 +1,12 @@
-#include <iostream>
+#include<stdio.h>
+#include<iostream>
+
 using namespace std;
-
-int
-main ()
+int main()
 {
-//say hello world
-  cout << "hello world" >> end1;
-
-  System ("pause");
+    int a, b;
+ 
+    cout << "write 'hello world:'";
+    cin >> a;
+return 0;
 }
