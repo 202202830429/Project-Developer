@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main ()
+
+{
+	int NUM1, NUM2, RESULTADO, R1, R2, R3 ;
+
+	
+	printf("Digite um numero:");
+	scanf("%d", &NUM1);
+	printf("Digite outro numero:");
+	scanf("%d", &NUM2);
+	RESULTADO = NUM1 + NUM2;
+	R1 = NUM1 - NUM2;
+	R2 = NUM1 * NUM2;
+	R3 = NUM1 / NUM2;
+	printf("a soma dos dois numeros é: %d \n", RESULTADO);
+	printf("a subtração entre os dois numeros e: %d \n", R1);
+	printf("a multiplicação entre os dois numeros e: %d \n", R2);
+	printf("a divisão entre os dois numeros e: %d \n", R3);
+	
+
+
+	system(" pause");
+		
+	
+	
+}
