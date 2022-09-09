@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+	int main (void)
+	{
+	int i;
+	printf("Valores de 1 a 10:\n\n");
+		
+		for (i=1; i < 11; i++ )
+		// se quiser imprimir somente numeros ímpares ou pares basta colocar: if (i%2!=0 )
+		{
+		
+			printf ("%d\t ", i );// 1   2   3   4...
+}
+	} 
